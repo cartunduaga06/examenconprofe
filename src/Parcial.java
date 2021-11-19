@@ -8,6 +8,7 @@ public class Parcial extends Examen{
         this.reintentos = reintentos;
     }
 
+    @Override
     public String seguirRecuperando(){
         if(numeroUnidad>3){
             return "se puede recurperar 2 veces";

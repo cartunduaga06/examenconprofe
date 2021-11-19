@@ -17,4 +17,6 @@ public abstract class Examen {
 
     public abstract boolean estaAProbado();
 
+    public abstract String seguirRecuperando();
+
 }
